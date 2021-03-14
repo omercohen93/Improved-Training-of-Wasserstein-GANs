@@ -1,8 +1,8 @@
 # Improved-Training-of-Wasserstein-GANs
 implementation of the architecture designed for CIFAR10 from "Improved Training of Wasserstein GANs" by Gulrajani.
 
-This folder present an easy to use colab notebooks, suitable for working with files inside your google drive.
-The Data used in this code is 'FASHION MNIS'.
+This folder present an easy to use colab notebook, suitable for working with files inside your google drive.
+The Data used in this code is 'FASHION MNIST'.
 The Gradient Penalty method described in the paper was used on WGAN.
 The training process for WGAN with gradient penalty and DCGAN took 50 epochs. It took 2-3 trials to train DCGAN and get descent results, and it took 3-4 trials for WGAN with gradient penalty.
 ## The results we got:
@@ -24,6 +24,7 @@ The training process for WGAN with gradient penalty and DCGAN took 50 epochs. It
 
 ## Run in google drive using colab
 If your folder is located in an inner folder inside your drive, please specify that path in “Mount drive” part inside “path”.
-To test the models and generate new images just run all the notebook. 
 To see the training process please delete the relevant hash in “train and test” section.
 To see the graph of the training process if you choose to train, please delete the hash in “show training graph” part. 
+The weights where too big to upload, so to test the code a training of the models is first needed.
+To test the models and generate new images just run all the notebook. 
